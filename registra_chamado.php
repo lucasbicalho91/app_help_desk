@@ -14,7 +14,7 @@
 
 
   //abrindo o arquivo e escrevendo o texto
-  $arquivo = fopen('arquivo.hd', 'a');
+  $arquivo = fopen('../../app_help_desk_private/arquivo.hd', 'a');
 
   fwrite($arquivo, $texto);
 
